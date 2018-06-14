@@ -1,0 +1,288 @@
+#main-content {
+	
+}
+
+#btn-save-usr-profile{
+	float: right;
+
+}
+
+tr>td:first-child{
+	text-align: right;
+}
+
+.panel.panel-info{
+	margin: 0;
+	height: 100%;
+	font-size: 16px;
+}
+
+.panel-heading{
+	text-align: right;
+}
+
+.panel-heading-text{
+	float: left;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.artictcle>img{
+	width: 100%;
+}
+
+#profile-content{
+	left: 0px;
+    max-width: 1115px;
+    position: absolute;
+    margin-left: calc((100% - 1115px) * 0.5);
+    min-height: 540px;
+    min-width: 980px;
+    top: 90px;
+    height: max-content;
+	background-color: #f3f3f5; 
+	padding-left: 0;
+	padding-right: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#left-nav{
+	vertical-align: top;
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    background-color: #0095c1;
+}
+
+#right-content{
+	display: inline-block;
+    height: 100%;
+    width: 80%;
+    background-color: #f3f3f5;
+    float:right;
+    padding: 10px;
+    overflow-y: auto;
+    position: relative;
+    overflow-x: hidden;
+}
+#right-content > .row{
+	margin: 0px;
+}
+
+#right-content .post-box{
+	width: 255px;
+	height: 400px;
+	margin: 0 15px;
+    margin-bottom: 30px;
+}
+
+#right-content .post-box .p-top{
+	height: 180px;
+}    
+
+#right-content .post-box .p-content-caption{
+	height: 90px;
+}
+
+#right-content .footer-bg{
+	width: 100%;
+	height: auto;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.usr-info{
+	text-align: center;
+	position: relative;
+}
+
+.usr-avt{
+	width: 150px;
+	height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+    margin-bottom: 10px;
+    border: 5px solid #d6d6d6;
+}
+
+.usr-name{
+	color: #fff;
+	font-weight: 800;
+	font-size: 15pt;
+}
+
+.usr-group-btn{
+	text-align: center;
+	margin: 10px;
+}
+
+.common-btn{
+	margin: 1px;
+	width: max-content;
+	height: 36px;
+	border-radius: 5px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	font-size: 13pt;
+	color: #fff;
+}
+
+.common-btn:hover{
+	background-color: #f6f9fb;
+	color: #00496d;
+	opacity: 0.6;
+}
+
+.lnav-menu {
+	margin-top: 50px;
+}
+
+.menu-item {
+	font-size: 15px;
+	width: 100%;
+	height: 40px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.menu-item:hover {
+	color: #005196;
+	background-color: #f6f9fb;
+	opacity: 0.6;
+}
+
+.menu-item.active{
+	background-color: #f3f3f5;
+	color: #5b9bd1;
+	/*border-left: 2px solid #5b9bd1;*/
+}
+
+.menu-item >span{
+	margin: auto 10px;
+	margin-top: 10px;
+}
+
+.menu-item:first-child {
+	border-top: none;
+}
+
+.menu-item:last-child {
+	border-bottom: none;
+}
+
+
+
+.overlay{
+	position: fixed;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.popup-edit-profile{
+	margin-left: 30% !important; 
+	margin-top: 5% !important;
+	position: fixed;
+	z-index: 10;
+	width: 40% ;
+	height: 60% !important;
+	background-color: #fff;
+}
+
+.form-control.input-md{
+	border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+}
+
+
+.upload-options {
+	z-index: 10;
+	display: initial;
+	width: 30px;
+	height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: cadetblue;
+    cursor: pointer;
+    overflow: hidden;
+    text-align: center;
+    -webkit-transition: background-color ease-in-out 150ms;
+    transition: background-color ease-in-out 150ms;
+    
+}
+
+.upload-options label::after { 
+    
+    font-family: 'Material Icons';
+    position: absolute;
+    font-size: 1.5rem;
+    top: calc(50% - 1.1rem);
+    left: calc(50% - 0.7rem);
+    z-index: 0;
+}
+
+.upload-options input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    margin-left: -20px;
+    margin-top: -5px;
+}
+#edit-mode{
+	margin-top: 150px;
+	margin-left: 83px;
+	background-color: #d28f00;
+}
+
+#edit-mode label::after{
+	content: 'edit';
+    color: #fff;
+}
+
+#edit-mode:hover{
+	background-color: #c8e9f3;
+}
+
+#save-mode{
+	margin-top: 150px;
+	margin-left: 53px;
+	background-color: #00d28b;
+}
+
+#save-mode label::after{
+	content: 'save';
+    color: #fff;
+}
+
+#save-mode:hover{
+	background-color: #c8e9f3;
+}
+
+#exit-mode{
+	margin-top: 150px;
+	margin-left: 113px;
+	background-color: #d20000;
+}
+
+#exit-mode label::after{
+	content: 'close';
+    color: #fff;
+}
+
+#exit-mode:hover{
+	background-color: #c8e9f3;
+}
+
+.followrs{
+	vertical-align: -webkit-baseline-middle
+}

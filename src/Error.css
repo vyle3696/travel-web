@@ -1,0 +1,32 @@
+button{
+	border: 1px solid rgb(255, 255, 255);
+	background-color: transparent;
+	color: rgb(255, 255, 255);
+	margin: 10px auto;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 11%;
+	cursor: pointer;
+}
+button:hover{
+	background-color: #fff;
+	color: #e6036b;
+}
+
+.error-contain{
+	color: #fff;
+	text-align: center;
+	background: #e6036b;
+	font-family: cursive;
+}
+.text404{
+	font-size: 1000%;
+	margin: 0px; 
+	vertical-align: middle;
+
+}
+
+.text-error{
+	font-size: 300%;    
+	margin: 0px;
+}

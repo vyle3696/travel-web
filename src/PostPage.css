@@ -1,0 +1,157 @@
+
+
+.p-detail-left{
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+}
+
+.p-detail-left .post-box{
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+.p-detail-left .post-box .p-top{
+	height: auto;
+	max-height: 500px;
+
+}
+
+.p-detail-left .post-box .p-content-caption {
+	height: auto;
+}
+
+.p-detail-left .panel.panel-info{
+	height: max-content!important;
+	max-height: 567px;
+	overflow-y: auto;
+}  
+
+.p-detail-right{
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+}
+
+/*comment*/
+.ls-comment {
+	clear:both;
+	width: 66%;
+	padding: 1%; 
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+}
+
+.ls-comment h3{
+	margin-bottom: 5px; 
+	margin-top: 10px;
+}
+
+.ls-comment textarea{
+	width: 100%;
+	resize: vertical;
+}
+
+.comment-item .comment{
+	width: 100%;
+	resize: vertical;
+	border: none;
+    background: transparent;
+}
+
+.comment-item {
+	height: max-content;
+	width: 100%;
+	line-height: 1.5;
+	position: relative;
+	padding: 10px 0;
+	min-height: 70px;
+}
+.comment-item .group-setting-icon{
+	float: right;
+	display: inline-block;
+}
+
+.comment-item .include-icon{
+	float: right;
+	font-size: 10px;
+	width: 15px;
+    height: 15px;
+    top: 0;
+    font-weight: 400;
+}
+
+.comment-item p {
+	margin: 0px;
+	padding: 0px;
+	font-size: 14px;
+}
+
+.comment-item img{
+	height: 48px;
+	width: 48px;
+	float: left;
+}
+
+.comment-item .item-content {
+	margin-left: 54px;
+    border-radius: 18px;
+    padding: 5px;
+    color: black;
+    background-color: #efeff6;
+}
+
+.comment-item .item-content .item-name {
+	font-weight: bold;
+    color: #365899;
+    cursor: pointer;
+}
+.comment-item .time-comment {
+	position: absolute;
+    font-size: 13px;
+    top: 16px;
+    opacity: 0.6;
+    padding-left: 10px;
+}
+
+.ls-scroll-bar::-webkit-scrollbar {
+    width: 0px;
+    background-color: #F5F5F5;
+}
+
+.ls-scroll-bar::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+.ls-scroll-bar::-webkit-scrollbar-track {
+	 background-color: #F5F5F5;
+}
+
+.frm-comment {
+	width: 100%;
+}
+.frm-comment .fn-useravatar{
+	 display: inline-block;
+	 vertical-align: top;
+	 width: 66px;
+	 height: 66px;
+}
+.frm-comment .wrap-comment{
+	display: inline-block;
+	width: calc(100% - 70px);
+	
+}
+
+.frm-comment .btn-comment{
+    float: right;
+    width: 100px;
+}
+
+.btn-loadmore{
+	background-color: #365899; 
+	width: 100%; 
+	color: #fff
+}
+

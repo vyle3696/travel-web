@@ -1,0 +1,117 @@
+.glyphicon.glyphicon-picture > label > input {
+    opacity: 0;
+    z-index: 10;
+    width: 20px;
+}
+
+.glyphicon.glyphicon-picture > label {
+    position: absolute;
+    margin-left: -20px;
+}
+
+#add-new-post{
+  background-color: #fff;
+  border: 1px solid #e4e5e4;
+  padding: 30px; 
+  padding-bottom: 0px
+}
+
+#add-new-post textarea{
+  background-color: transparent; 
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid #efeff0;
+  font-size: 20px;
+  resize: vertical;
+}
+
+#add-new-post textarea:focus {
+    outline: none;
+}
+
+#newp-caption > label{
+  color: #3366cc; 
+  font-size: 15px;
+}
+
+#newp-tool {
+  height: max-content;
+}
+
+#newp-tool > div {
+  float: left; 
+  margin-top: 15px;
+}
+
+.include-icon {
+  width: 30px; 
+  height: 30px; 
+  font-size: 16px;
+  display: inline-block; 
+  cursor: pointer;
+
+}
+
+.include-icon:hover{
+  color: #1b75ba;
+}
+
+#newp-submit {
+  /*
+  width: 84px;
+  height: 36px;
+  border-radius: 40px;
+  background-color: #1b75ba;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 7px;*/
+  float: right;
+  color: #fff;
+}
+
+.div-br{
+  width: 100%;
+}
+
+#newp-thumbnail-list{
+  display: inline-flex;
+}
+
+.newp-thumbnail-box:first-child > img{
+  height: 120px;
+}
+
+.newp-thumbnail-box{
+  /*display: none;*/
+  width: max-content;
+  position: relative;
+  margin: 1px;
+  vertical-align: top;
+
+}
+
+.newp-thumbnail{
+  height: 100px;
+  width: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.x-icon{
+    position: absolute;
+    margin-left: -20px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #ff7070;
+    background: white;
+    border-radius: 50%;
+}
+
+.x-icon:hover{
+  color: #e80000;
+}
+
+.btn-glyphicon { padding:8px; background:#ffffff; margin-right:4px; }
+.icon-btn { padding: 1px 15px 3px 2px; border-radius:50px;}
+
